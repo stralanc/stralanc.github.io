@@ -1,0 +1,25 @@
+*, :before, :after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+}
+
+body {
+  max-width: 768px;
+  margin: 0 auto;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #121212;
+    color: #fff;
+  }
+  a {
+    color: #9da2ff;
+  }
+  a:visited {
+    color: #d7aefb;
+  }
+  a:active {
+    filter: brightness(0.9);
+  }
+}
