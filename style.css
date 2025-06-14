@@ -23,3 +23,10 @@ body {
     filter: brightness(0.9);
   }
 }
+
+.images {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
