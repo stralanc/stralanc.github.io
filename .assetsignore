@@ -1,0 +1,11 @@
+.git
+.github
+.claude
+.vscode
+.wrangler
+.DS_Store
+.gitignore
+.nojekyll
+.assetsignore
+wrangler.jsonc
+node_modules

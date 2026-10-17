@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "stralanc",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./"
+  },
+  "routes": [
+    { "pattern": "stralanc.com", "custom_domain": true },
+    { "pattern": "www.stralanc.com", "custom_domain": true }
+  ]
+}
