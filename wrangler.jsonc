@@ -6,7 +6,7 @@
     "directory": "./"
   },
   "routes": [
-    { "pattern": "stralanc.com", "custom_domain": true },
-    { "pattern": "www.stralanc.com", "custom_domain": true }
+    { "pattern": "stralanc.com", "custom_domain": true, "zone_name": "stralanc.com" },
+    { "pattern": "www.stralanc.com", "custom_domain": true, "zone_name": "stralanc.com" }
   ]
 }
